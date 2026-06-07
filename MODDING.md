@@ -1,13 +1,23 @@
-# _MODDING.gd
-
-"""
+# [GAME NAME] Modding Guide
 
 You can change the battle music in [GAME NAME]. No tools needed. No code needed.
 You add files to a folder. The game finds them at startup.
 
-This is version 1 of modding. More categories (sprites, characters) come later.
+This is version 1 of modding. More categories (sprites, characters) will come later.
 
----
+![Code layout](docs/images/code-01-layout.jpg)
+
+<br>
+
+## YouTube Video Tutorial
+
+Watch this to get an idea of how to mod this game. Have fun!
+
+[![Modding video tutorial](docs/images/video-01-tutorial.png)](https://www.youtube.com/watch?v=_cNIwKx5JDE)
+
+<br>
+
+![Quick Start](docs/images/header-04-quick-start.png)
 
 ## Quick start: replace the battle music
 
@@ -30,6 +40,9 @@ mods/
       battle_01_fight.mp3
 ```
 
+The pattern is always: `mods/` → your mod's name (your choice) → category
+folder (fixed names like `music/`) → files named after what they replace.
+
 **3. Name your file after the clip you want to replace.**
 
 The first battle has 4 music clips. A file with the same name replaces that clip:
@@ -45,7 +58,9 @@ You can replace one clip, or all four.
 
 **4. Restart the game.** Your music plays in the battle.
 
----
+<br>
+
+![Rules](docs/images/header-03-rules.png)
 
 ## Rules
 
@@ -59,7 +74,9 @@ You can replace one clip, or all four.
 - Exact spelling matters. `battle_01_fight.mp3` works. `Battle_01_Fight.mp3`
   does not.
 
----
+<br>
+
+![Something not working](docs/images/header-05-something-not-working.png)
 
 ## Something not working?
 
@@ -73,24 +90,34 @@ SKIPPED my_first_mod/music/notes.txt — not a supported audio format (.ogg, .mp
 A skipped file never breaks the game. The game just plays its own music for
 that clip.
 
----
+<br>
+
+![Sharing your mod](docs/images/header-06-sharing-your-mod.png)
 
 ## Sharing your mod
 
 Zip your mod folder (`my_first_mod/`) and share it anywhere. To install
 someone's mod: unzip it into `mods/` and restart the game.
 
+To remove a mod: move its folder out of `mods/` (or delete it) and restart.
+Renaming the folder does nothing — any folder inside `mods/` loads, whatever
+its name.
+
 [GAME NAME] is licensed [CC LICENSE]. Mods are yours.
 
----
+<br>
+
+![Example Mod](docs/images/header-07-example-mod.png)
 
 ## Example mod
 
-Download [example_music_pack.zip](LINK) — a working mod with the correct
+Download [example_music_pack.zip](https://github.com/waltribeiro/github-mods/raw/main/examples/example_music_pack.zip) — a working mod with the correct
 folder structure. Unzip it into `mods/`, restart, and hear it. Then swap in
 your own files.
 
----
+<br>
+
+![Coming Later](docs/images/header-08-coming-later.png)
 
 ## Coming later
 
@@ -99,6 +126,3 @@ your own files.
 - New fighters
 
 Questions or ideas: [LINK TO ISSUES / DISCORD]
-
-
-"""
