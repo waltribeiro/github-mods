@@ -1,3 +1,5 @@
+![Modding Guide](docs/images/header-01-modding-guide-3.png)
+
 # [GAME NAME] Modding Guide
 
 You can change the battle music in [GAME NAME]. No tools needed. No code needed.
@@ -9,11 +11,25 @@ This is version 1 of modding. More categories (sprites, characters) will come la
 
 <br>
 
+![Youtube Video Tutorial](docs/images/header-02-youtube-video-tutorial.png)
+
 ## YouTube Video Tutorial
 
 Watch this to get an idea of how to mod this game. Have fun!
 
-[![Modding video tutorial](docs/images/video-01-tutorial.png)](https://www.youtube.com/watch?v=_cNIwKx5JDE)
+<!-- [![Modding Video Tutorial](docs/images/video-01-tutorial.png)](https://www.youtube.com/watch?v=_cNIwKx5JDE) -->
+
+<br>
+
+<a href="https://www.youtube.com/watch?v=_cNIwKx5JDE">
+  <img src="docs/images/video-01-tutorial.png" alt="Modding Video Tutorial" width="640">
+</a>
+
+### TIMECODE
+[0:27](https://www.youtube.com/watch?v=_cNIwKx5JDE&t=27s) dropdown menu \
+[1:45](https://www.youtube.com/watch?v=_cNIwKx5JDE&t=105s) adding a music file \
+[3:12](https://www.youtube.com/watch?v=_cNIwKx5JDE&t=192s) testing your mod in-game \
+[5:08](https://www.youtube.com/watch?v=_cNIwKx5JDE&t=308s) sharing your mod
 
 <br>
 
